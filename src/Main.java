@@ -6,9 +6,11 @@ public class Main {
         shape1.setColor("black");
         shape1.setFilled(true);
         System.out.println(shape1.toString());
+        System.out.println("");
 
         Shape shape2= new Shape("blue",false);
         System.out.println(shape2.toString());
+        System.out.println("");
 
         Circle circle1 =new Circle(7);
         System.out.println("the radius= "+circle1.getRadius());
@@ -72,11 +74,6 @@ public class Main {
         System.out.printf("the area = %.2f\n",square2.getArea());
         System.out.printf("the Perimeter = %.2f\n",square2.getPerimeter());
         System.out.println(square2.toString());
-
-
-
-
-
 
     }
 }
